@@ -16,6 +16,7 @@ function App() {
   };
 
   return (
+    //this is a react fragment
     <>
       <AddUser onAddUser={addUserHandler} />
       <UsersList users={usersList} />
