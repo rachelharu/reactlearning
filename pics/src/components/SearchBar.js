@@ -1,4 +1,4 @@
-function ISearchBar() {
+function SearchBar() {
     return <div>SearchBar</div>
 }
 
