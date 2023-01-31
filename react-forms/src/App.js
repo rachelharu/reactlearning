@@ -15,11 +15,11 @@ function App() {
     setBooks(updatedBooks);
   };
 
-  return
+  return (
    <div className="app">
     <BookList books={books} />
     <BookCreate  onCreate={createBook} />
-  </div>;
-}
+  </div>
+);}
 
 export default App;
