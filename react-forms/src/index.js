@@ -8,7 +8,7 @@ const el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
 
 root.render(
-  <BooksContext.Provider value={{ count, incrementCount}}>
+  <BooksContext.Provider value={{ }}>
     <App />
   </BooksContext.Provider>
 );
